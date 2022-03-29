@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+  --corLetras: #dc3545;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+.nav-link {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 35px;
+}
+
+nav {
+  color: var(--corLetras);
+}
+
+.wrapper {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.imagensCursoUM {
+  display: flex;
+}
+
+.imagensCursoDOIS {
+  display: flex;
+}
+
+.recodePro {
+  width: 150px;
+  padding: 20px;
+}
+
+.udemy {
+  width: 300px;
+  padding: 20px;
+}
+
+.bradesco {
+  width: 150px;
+  padding: 20px;
+}
+
+.cursoEmVideo {
+  width: 300px;
+  padding: 20px;
+}
+
+.google {
+  width: 200px;
+  padding: 20px;
+}
+
+tbody {
+  display: flex;
+}
+
+.contatos {
+  text-align: center;
+}
+
+.whatsapp {
+  width: 400px;
+}
+
+.facebook {
+  width: 500px;
+}
+
+footer {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+footer img {
+  height: 100px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+h1 {
+  text-align: center;
+}
